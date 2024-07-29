@@ -1,5 +1,6 @@
 
-🎉 Welcome to GetNextLine 2.0! 🎉
+🎉 Welcome to GetNextLine! 🎉
+
 Ever dreamt of reading a file line by line, but with pizzazz? GetNextLine 2.0 is here to make your wildest file reading fantasies come true! 🌟
 
 📝 What is this sorcery?
