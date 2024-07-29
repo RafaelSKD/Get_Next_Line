@@ -10,7 +10,7 @@ GetNextLine is a C library that gives you the power to read lines from a file li
 Simplicity: One function to rule them all.
 Efficiency: Reads lines efficiently so you don't have to.
 Flexibility: Configure your buffer size for ultimate control.
-Memorable: Make your code unforgettable with our unique memory management (no leaks guaranteed!).
+Memorable: Make your code unforgettable with our unique memory management.
 
 🎉 Features
 Line by Line Reading: Read any file, one line at a time. It's like magic, but real.
@@ -22,23 +22,6 @@ Clone the repo and get started right away:
 
 🛠️ Usage
 Include get_next_line.h in your project, and you're ready to roll!
-
-#include "get_next_line.h"
-
-int main(void)
-{
-    int fd = open("yourfile.txt", O_RDONLY);
-    char *line;
-
-    while ((line = get_next_line(fd)))
-    {
-        printf("%s", line);
-        free(line);
-    }
-    free_static_txt();  // Remember to free the static memory when you're done
-    close(fd);
-    return 0;
-}
 
 🌟 Show Your Support
 Give a ⭐️ if this project helped you read files like never before!
