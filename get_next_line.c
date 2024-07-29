@@ -6,7 +6,7 @@
 /*   By: rafaefer <rafaefer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/17 10:17:03 by rafaefer          #+#    #+#             */
-/*   Updated: 2024/07/18 12:00:01 by rafaefer         ###   ########.fr       */
+/*   Updated: 2024/07/29 13:15:20 by rafaefer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	ft_free_memory(char **ptr)
 		*ptr = NULL;
 	}
 }
- 
+
 char	*ft_create_txt(char *txt)
 {
 	txt = (char *)malloc(1);
@@ -101,3 +101,15 @@ char	*get_next_line(int fd)
 	txt = temp;
 	return (line);
 }
+//
+//int main(void)
+//{
+//    int fd;
+//    char *line;
+//	
+//	fd = open("test.txt", O_RDONLY);
+//	line = get_next_line(fd);
+//	printf("%s", line);
+//	free(line);
+//    return 0;
+//}
